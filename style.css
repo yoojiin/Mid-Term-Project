@@ -1,0 +1,32 @@
+@font-face {
+  src: url("./font/AppleSDGothicNeoM.ttf");
+  font-family: "Applefont";
+}
+
+body {
+  font-family: "Applefont";
+
+  margin: 20px;
+}
+
+.container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 2fr 1fr;
+
+  border: 1px solid blue;
+
+  height: 450px;
+}
+
+.item {
+  border: 1px solid red;
+}
+
+footer {
+  font-family: "Applefont";
+
+  border: 1px solid rgb(255, 234, 0);
+  margin-top: 10px;
+  height: 215px;
+}
