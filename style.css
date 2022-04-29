@@ -33,9 +33,21 @@ hr {
   width: 100%;
 }
 
+.img_logo {
+  margin-left: 10%;
+  margin-top: 5px;
+  width: 80%;
+}
+
+.logo_under {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
 .container {
   display: grid;
-  gap: 20px;
+  gap: 30px;
   grid-template-columns: 1fr 2fr 1fr;
 
   height: 450px;
@@ -43,20 +55,21 @@ hr {
 
 .item {
   height: 450px;
-  overflow: hidden;
 }
 
 .name {
   font-size: 2em;
   font-family: "font_bold";
-
+  font-weight: bold;
+  margin-top: 10px;
   margin-bottom: 5px;
 }
 
 .title {
   font-size: 1.2em;
+  font-weight: bold;
   font-family: "font_bold";
-  color: #2e4066;
+  color: #2db400;
 
   margin-top: 25px;
   margin-bottom: 5px;
@@ -65,6 +78,7 @@ hr {
 .guide {
   font-family: "font_light";
   font-size: 0.5em;
+  color: #b6b6b6;
 }
 
 .title_f {
