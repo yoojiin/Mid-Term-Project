@@ -19,6 +19,16 @@ body {
   margin: 20px;
 }
 
+hr {
+  border: 0;
+  background-color: #fff;
+  border-top: 2px dotted #b6b6b6;
+}
+
+.content {
+  margin-bottom: 10px;
+}
+
 .img {
   width: 100%;
 }
@@ -28,14 +38,10 @@ body {
   gap: 20px;
   grid-template-columns: 1fr 2fr 1fr;
 
-  border: 1px solid blue;
-
   height: 450px;
 }
 
 .item {
-  border: 1px solid red;
-
   height: 450px;
   overflow: hidden;
 }
@@ -43,21 +49,27 @@ body {
 .name {
   font-size: 2em;
   font-family: "font_bold";
+
+  margin-bottom: 5px;
 }
 
 .title {
   font-size: 1.2em;
   font-family: "font_bold";
+  color: #2e4066;
+
+  margin-top: 25px;
+  margin-bottom: 5px;
 }
 
 .guide {
-  color: rgb(217, 217, 217);
   font-family: "font_light";
   font-size: 0.5em;
 }
 
-footer {
-  border: 1px solid rgb(255, 234, 0);
-  margin-top: 10px;
-  height: 215px;
+.title_f {
+  font-size: 1.2em;
+  font-family: "font_bold";
+
+  margin-top: 5px;
 }
