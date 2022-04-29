@@ -19,32 +19,6 @@ body {
   margin: 20px;
 }
 
-hr {
-  border: 0;
-  background-color: #fff;
-  border-top: 2px dotted #b6b6b6;
-}
-
-.content {
-  margin-bottom: 10px;
-}
-
-.img {
-  width: 100%;
-}
-
-.img_logo {
-  margin-left: 10%;
-  margin-top: 5px;
-  width: 80%;
-}
-
-.logo_under {
-  display: flex;
-  justify-content: center;
-  margin-top: 5px;
-}
-
 .container {
   display: grid;
   gap: 30px;
@@ -57,12 +31,26 @@ hr {
   height: 450px;
 }
 
+.img {
+  width: 100%;
+}
+
 .name {
   font-size: 2em;
   font-family: "font_bold";
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 5px;
+}
+
+.content {
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 0;
+  background-color: #fff;
+  border-top: 2px dotted #b6b6b6;
 }
 
 .title {
@@ -73,6 +61,18 @@ hr {
 
   margin-top: 25px;
   margin-bottom: 5px;
+}
+
+.img_logo {
+  margin-left: 10%;
+  margin-top: 5px;
+  width: 80%;
+}
+
+.logo_under {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
 }
 
 .guide {
